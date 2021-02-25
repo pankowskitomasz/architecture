@@ -1,0 +1,25 @@
+.comingsoon{
+    &-s1{
+        @include set-background($comingsoon-img,0,"center","cover","fixed");
+    }
+}
+
+.error{
+    &-s1{
+        @include set-background($error-img,0,"center","cover","fixed");
+    }
+}
+
+.privacy{
+    &-s1{
+        @include set-background($privacy-img,0,"center","cover","fixed");
+    }
+}
+
+.hover{
+    &-underline{
+        &:hover{
+            text-decoration: underline !important;
+        }
+    }
+}

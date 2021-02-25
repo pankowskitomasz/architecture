@@ -7,3 +7,52 @@
 body, html {
   min-height: 100vh;
 }
+
+/* line 2, ../sass/partials/_modules.scss */
+.comingsoon-s1 {
+  background-attachment: fixed;
+  background-image: url(../img/error_bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 8, ../sass/partials/_modules.scss */
+.error-s1 {
+  background-attachment: fixed;
+  background-image: url(../img/error_bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 14, ../sass/partials/_modules.scss */
+.privacy-s1 {
+  background-attachment: fixed;
+  background-image: url(../img/error_bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 21, ../sass/partials/_modules.scss */
+.hover-underline:hover {
+  text-decoration: underline !important;
+}
+
+/* line 2, ../sass/partials/_minh.scss */
+.minh-25vh {
+  min-height: 25vh;
+}
+/* line 5, ../sass/partials/_minh.scss */
+.minh-50vh {
+  min-height: 50vh;
+}
+/* line 8, ../sass/partials/_minh.scss */
+.minh-75vh {
+  min-height: 75vh;
+}
+/* line 11, ../sass/partials/_minh.scss */
+.minh-100vh {
+  min-height: 100vh;
+}
