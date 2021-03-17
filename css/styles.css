@@ -9,6 +9,36 @@ body, html {
 }
 
 /* line 2, ../sass/partials/_modules.scss */
+.about-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/about/about-s1_bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 5, ../sass/partials/_modules.scss */
+.about-s2 {
+  background-attachment: scroll;
+  background-image: url(../img/index/index-s2_bg.jpg);
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 8, ../sass/partials/_modules.scss */
+.about-s3 {
+  background-attachment: scroll;
+  background-image: url(../img/about/about-s3_bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 14, ../sass/partials/_modules.scss */
+.bg-light-gray {
+  background-color: #ddd;
+}
+
+/* line 20, ../sass/partials/_modules.scss */
 .comingsoon-s1 {
   background-attachment: fixed;
   background-image: url(../img/error_bg.jpg);
@@ -17,7 +47,33 @@ body, html {
   background-size: cover;
 }
 
-/* line 8, ../sass/partials/_modules.scss */
+/* line 26, ../sass/partials/_modules.scss */
+.contact-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/projects/projects-s2_bg.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 29, ../sass/partials/_modules.scss */
+.contact-s2 {
+  background-attachment: scroll;
+  background-image: url(../img/index/index-s5_bg.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 32, ../sass/partials/_modules.scss */
+.contact-s3 {
+  background-attachment: scroll;
+  background-image: url(../img/projects/projects-s3_bg.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+/* line 39, ../sass/partials/_modules.scss */
 .error-s1 {
   background-attachment: fixed;
   background-image: url(../img/error_bg.jpg);
@@ -26,7 +82,116 @@ body, html {
   background-size: cover;
 }
 
-/* line 14, ../sass/partials/_modules.scss */
+/* line 45, ../sass/partials/_modules.scss */
+.fit-cover {
+  object-fit: cover;
+}
+
+/* line 51, ../sass/partials/_modules.scss */
+.hover-underline {
+  border-bottom: 3px solid transparent;
+}
+/* line 52, ../sass/partials/_modules.scss */
+.hover-underline:hover {
+  border-bottom: 3px solid rgba(0, 0, 0, 0.55);
+  text-decoration: none;
+}
+
+/* line 61, ../sass/partials/_modules.scss */
+.h-33vh {
+  height: 33vh;
+}
+/* line 64, ../sass/partials/_modules.scss */
+.h-50vh {
+  height: 50vh;
+}
+/* line 67, ../sass/partials/_modules.scss */
+.h-100vh {
+  height: 100vh;
+}
+
+/* line 73, ../sass/partials/_modules.scss */
+.index-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/index/index-s1_bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 76, ../sass/partials/_modules.scss */
+.index-s2 {
+  background-attachment: scroll;
+  background-image: url(../img/index/index-s2_bg.jpg);
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 79, ../sass/partials/_modules.scss */
+.index-s3 {
+  background-attachment: scroll;
+  background-image: url(../img/index/individual_bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/* line 82, ../sass/partials/_modules.scss */
+.index-s4 {
+  background-attachment: scroll;
+  background-image: url(../img/index/commercial_bg.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 85, ../sass/partials/_modules.scss */
+.index-s5 {
+  background-attachment: scroll;
+  background-image: url(../img/index/index-s5_bg.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 91, ../sass/partials/_modules.scss */
+.maxh-600 {
+  max-height: 600px;
+}
+
+/* line 97, ../sass/partials/_modules.scss */
+.minh-150 {
+  min-height: 150px;
+}
+
+/* line 104, ../sass/partials/_modules.scss */
+.navbar-collapse.show {
+  backdrop-filter: blur(10px);
+  border: 1px solid #ddd;
+  z-index: 10;
+}
+/* line 105, ../sass/partials/_modules.scss */
+.navbar-collapse.show .hover-underline {
+  border-bottom: none;
+}
+/* line 106, ../sass/partials/_modules.scss */
+.navbar-collapse.show .hover-underline:hover {
+  border-bottom: none;
+  text-decoration: underline;
+}
+
+/* line 120, ../sass/partials/_modules.scss */
+.obj-left {
+  object-position: left;
+}
+
+/* line 126, ../sass/partials/_modules.scss */
+.opacity-8 {
+  opacity: 0.8;
+}
+/* line 129, ../sass/partials/_modules.scss */
+.opacity-9 {
+  opacity: 0.9;
+}
+
+/* line 135, ../sass/partials/_modules.scss */
 .privacy-s1 {
   background-attachment: fixed;
   background-image: url(../img/error_bg.jpg);
@@ -35,9 +200,57 @@ body, html {
   background-size: cover;
 }
 
-/* line 21, ../sass/partials/_modules.scss */
-.hover-underline:hover {
-  text-decoration: underline !important;
+/* line 141, ../sass/partials/_modules.scss */
+.projects-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/projects/projects-s1_bg.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 144, ../sass/partials/_modules.scss */
+.projects-s2 {
+  background-attachment: scroll;
+  background-image: url(../img/projects/projects-s2_bg.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 147, ../sass/partials/_modules.scss */
+.projects-s3 {
+  background-attachment: scroll;
+  background-image: url(../img/projects/projects-s3_bg.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+/* line 151, ../sass/partials/_modules.scss */
+.projects-s4 {
+  background-attachment: scroll;
+  background-image: url(../img/projects/projects-s4_bg.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 154, ../sass/partials/_modules.scss */
+.projects-s5 {
+  background-attachment: scroll;
+  background-image: url(../img/projects/projects-s2_bg.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+/* line 162, ../sass/partials/_modules.scss */
+.text-shadow-gray {
+  text-shadow: 1px 1px 1px #999;
+}
+
+/* line 168, ../sass/partials/_modules.scss */
+textarea {
+  resize: none;
 }
 
 /* line 2, ../sass/partials/_minh.scss */
@@ -45,14 +258,18 @@ body, html {
   min-height: 25vh;
 }
 /* line 5, ../sass/partials/_minh.scss */
+.minh-33vh {
+  min-height: 33vh;
+}
+/* line 8, ../sass/partials/_minh.scss */
 .minh-50vh {
   min-height: 50vh;
 }
-/* line 8, ../sass/partials/_minh.scss */
+/* line 11, ../sass/partials/_minh.scss */
 .minh-75vh {
   min-height: 75vh;
 }
-/* line 11, ../sass/partials/_minh.scss */
+/* line 14, ../sass/partials/_minh.scss */
 .minh-100vh {
   min-height: 100vh;
 }

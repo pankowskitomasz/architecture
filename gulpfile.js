@@ -15,6 +15,7 @@ function js(){
 
 function css(){
     return src([
+        "css/bootstrap.min.css",
         "css/styles.css"
     ])
     .pipe(concat("styles.min.css"))
